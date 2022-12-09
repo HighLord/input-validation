@@ -1,7 +1,7 @@
 <?php
 //This prevents a user from hotlinking directly to this page.
 if (count(get_included_files()) == 1) {
-    require_once '../index.php';
+    require_once 'index.php';
     die();
 }
 
